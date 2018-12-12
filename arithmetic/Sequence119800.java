@@ -17,22 +17,30 @@ S is 119800
  * */
 public class Sequence119800 {
 	public static void main(String[] args) {
-		int A = 2;
-        int D = 6;
-        int S = A;
-        int N = 2;
-        int AN = 0;
+		int A = 2;	//초항
+        int D = 6;	//공차
+        int S = A;	//Series
+        int N = 2;	//count
+        int AN = 0;	//term
         while(true){
-        	AN++;
+        	AN = A+(N-1)*D;
+        	S += AN;
+        	N++;
+        	System.out.printf("Count is %d, Number is %d, Sum is %d \n",N-1,AN,S);
+        	
+        	if(N==201) {
+        		break;
+        	}
+        	/*        	AN++;
         	S += A+D*AN ;
         	if(AN<199) {
         		continue;
         	}else {
         		break;
-        	}       	
+        	}*/       	
             
         }
-        System.out.println("S is "+ S);
+        System.out.printf("S is %d",S);
 		
 	}
 }
