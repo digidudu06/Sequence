@@ -1,4 +1,4 @@
-package geometric;
+package Prectice;
 /*
  * 1! = 1
  * 2! = 2*1
@@ -6,8 +6,7 @@ package geometric;
  * 4! = 4*3*2*1
  * 5! = 5*4*3*2*1
  * */
-public class Factorial4037913 {
-
+public class Prec1 {
 	public static void main(String[] args) {
 		int S = 1;
 		int F = 1;
@@ -15,16 +14,14 @@ public class Factorial4037913 {
 		
 		while(true) {
 			N++;
-			F *= N;
-			System.out.printf("F : %d N : %d\n",F,N);
-
+			
 			S += F;
 			
-			if(N>9) {
+/*			if() {
 				break;
-			}
+			}*/
 		}
-		System.out.printf("S is %d",S);
+//		System.out.printf("S is %d",S);
 	}
 
 }
