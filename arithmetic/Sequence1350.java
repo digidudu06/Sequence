@@ -1,6 +1,6 @@
 package arithmetic;
 
-public class Sequence20 {
+public class Sequence1350 {
 	public static void main(String[] args) {
 		 int i = 0, d = 1, sum = 1;
 
