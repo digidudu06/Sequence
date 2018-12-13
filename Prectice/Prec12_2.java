@@ -5,13 +5,13 @@ package Prectice;
  * 피보나치 수열의 20번째 항까지의 합은 얼마인가? 17710
  * 5항까지의 합이 12가 나오는 식을 먼저 만듭시다.
  * */
-public class Prec2 {
+public class Prec12_2 {
 	public static void main(String[] args) {
 		int A = 1;
 		int B = 1;
 		int S = A + B;
 		int N = 2;	//count
-		int C = 0;	//3~20번째 항
+		int C = 0;	//3~20번째 항 
 		
 		
 

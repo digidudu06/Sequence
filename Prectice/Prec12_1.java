@@ -6,7 +6,7 @@ package Prectice;
  * 4! = 4*3*2*1
  * 5! = 5*4*3*2*1
  * */
-public class Prec1 {
+public class Prec12_1 {
 	public static void main(String[] args) {
 		int S = 1;
 		int F = 1;

@@ -7,7 +7,7 @@ package Prectice;
  * 2 + (2*3) + (2*3*3) + (2*3*3*3)
  * 
  * */
-public class Prec3 {
+public class Prec12_3 {
 	public static void main(String[] args) {	
 		int A = 2;	//초항 init
 		int R = 3;	//공비 common rate
