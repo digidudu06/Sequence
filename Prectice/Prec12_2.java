@@ -13,8 +13,19 @@ public class Prec12_2 {
 		int N = 2;	//count
 		int C = 0;	//3~20번째 항 
 		
-		
-
+		while(true) {
+			N++;
+			C = A + B;
+			A = B;
+			B = C;
+			System.out.println("c의 값 "+C);
+			S += C;
+			if(N>5) {
+				break;
+			}
+			System.out.printf("S is %d \n",S);
+			
+		}
 	}
 
 }

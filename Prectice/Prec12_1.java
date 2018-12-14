@@ -14,14 +14,15 @@ public class Prec12_1 {
 		
 		while(true) {
 			N++;
-			
+			F *= N;
+//			System.out.println("N의 값 "+N);
 			S += F;
-			
-/*			if() {
+			if(N>=5) {
 				break;
-			}*/
+			}
 		}
-//		System.out.printf("S is %d",S);
+		
+		System.out.printf("S의 값 %d",S);
 	}
 
 }

@@ -11,6 +11,12 @@ package Prectice;
 - 영어 점수는 배열 변수 JUMSU(100)에 이미 저장되어 있다고 가정한다.
 점수는 랜덤 함수로 받기
 */
+import java.util.Random;
 public class prec13_1 {
+	public static void main(String[] args) {
+		
+		
+		
+	}
 
 }

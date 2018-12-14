@@ -2,7 +2,7 @@ package arithmetic;
 
 public class Sequence1350 {
 	public static void main(String[] args) {
-		String res = "";
+
 		 int i = 0, d = 1, sum = 1;
 
 		 while (true) {
